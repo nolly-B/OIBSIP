@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #9fd3c7;
+  --button-color: #f0d34a;
+  --font-style: "Poppins", sans-serif;
+}
+
+.logo {
+  max-width: 85px;
+}
+.btn-branding {
+  background-color: var(--button-color);
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  border-radius: 4px;
+  padding: 15px 30px;
+  margin-top: 70px;
+}
+.turquoise {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.turquoise p {
+  font-family: var(--font-style);
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+  margin: 0;
+  line-height: 2;
+}
+.turquoise h1 {
+  font-family: var(--font-style);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 50px;
+}
+
+h1 {
+  text-align: center;
+}
