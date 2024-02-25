@@ -2,6 +2,7 @@
   --primary-color: #9fd3c7;
   --button-color: #f0d34a;
   --font-style: "Poppins", sans-serif;
+  --secondary-font: "Dosis", sans-serif;
 }
 
 .logo {
@@ -16,10 +17,47 @@
   padding: 15px 30px;
   margin-top: 70px;
 }
+.island-hopping {
+  position: relative;
+  margin-left: 100px;
+}
+.waterpark {
+  position: relative;
+  margin-top: 100px;
+}
+.night-market {
+  position: relative;
+  margin-top: 50px;
+}
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: var(--secondary-font);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-branding:hover {
+  background-color: var(--button-color);
+  color: white;
+}
 .turquoise {
   background-color: var(--primary-color);
   text-align: center;
   padding: 160px 20px;
+}
+.andamanda {
+  position: relative;
+  margin-left: 100px;
+  margin-top: 100px !important;
+}
+.market-image {
+  position: relative;
+  margin-top: 90px;
+}
+p {
+  font-family: var(--font-style);
 }
 .turquoise p {
   font-family: var(--font-style);
